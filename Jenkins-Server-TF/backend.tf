@@ -3,7 +3,6 @@ terraform {
     bucket         = "my-ews-bucket1"
     region         = "ap-south-1"
     key            = "End-to-End-Kubernetes-DevSecOps-Tetris-Project/Jenkins-Server-TF/terraform.tfstate"
-    dynamodb_table = "Lock-Files1"
     encrypt        = true
   }
   required_version = ">=0.13.0"
